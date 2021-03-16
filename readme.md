@@ -1,4 +1,4 @@
-# personal blog.
+# Personal Blog.
 ## Overview
 This a User Interface created for a self-discovery blog designed to connect individuals who have lost their sense of identity at some points in life to information that can wake them up to accepting the beauty that locks in the inside of them.
 
