@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #160181;
+  --secondary-color: #fcca03;
+  --dark-color: #333;
+  --light-color: #fafafa;
+}
+
+html {
+  font-size: 62.5%
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  line-height: 1.5;
+  background-color: var(--light-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans', cursive;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+img {
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+/* buttons */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: var(--dark-color);
+  color: var(--dark-color);
+}
+
+.btn-light {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
