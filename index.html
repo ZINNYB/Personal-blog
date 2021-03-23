@@ -9,23 +9,180 @@
   <link rel="stylesheet" href="/css/main.css">
   <title> Welcome to LIZZK</title>
 </head>
- <header id="page-header">
-  <div class="container nav-container">
-    <div class="logo"><img src="/img/logo.png" alt="image of the website's logo"></div>
-    <nav>
-      <ul class="header-list">
-        <l1><a href="index.html" class="current">Home</a></l1>
-        <l1><a href="About.html">About</a></l1>
-        <l1><a href="testimonials.html">Testimonials</a></l1>
-        <l1><a href="Contact.html">Contact</a></l1>
-      </ul>
-    </nav>
+  <div id="grid-container">
+    <header class="page-header">
+        <div class="nav-container">
+        <div class="logo">
+          <img src="/img/logo.png" alt="image of the website's logo">
+        </div>
+        <nav>
+          <ul class="header-list">
+            <l1><a href="index.html" class="current">Home</a></l1>
+            <l1><a href="#about">About</a></l1>
+            <l1><a href="#contact">Contact</a></l1>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-content">
+        <h1> Welcome to this personal blog</h1>
+        <p>this is the place to rediscover the you that is missing</p>
+        <a href="#showcase-area" class="btn btn-primary"><i class="fas fa-chevron-right"></i> see more</a>
+      </div>
+    </header>
+
+    <!-- main section -->
+    <main id="showcase-area">
+      <section class="showcase">
+        <h2>Recent Articles</h2>
+        <div class="showcase-container">
+        <div class="card">
+          <div class="card-img">
+            <a href="blog1.html">
+              <figure>
+                <img src="/img/happy.jpg" alt="image of a confident woman">
+                <figcaption>
+                 <strong>The Way back to the confident you</strong> 
+                </figcaption>
+              </figure>
+              <span class="card-category btn">Attitude</span>
+            </a>
+          </div>    
+          <p class="card-content">
+            <a href="blog1.html">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugit facere repellat rerum labore
+              quo vel amet cumque illum temporibus.         
+            </a>
+          </p> 
+        </div>  
+        <div class="card">
+          <div class="card-img">
+            <a href="blog2.html">
+              <figure>
+                <img src="/img/gratitude.jpg" alt="image of a confident woman">
+                <figcaption>
+                 <strong>Gratitude Is The Transport Way To Rediscovery</strong> 
+                </figcaption>
+              </figure>
+              <span class="card-category btn">meditation</span>
+            </a>
+          </div>    
+          <p class="card-content">
+            <a href="blog2.html">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugit facere repellat rerum labore
+              quo vel amet cumque illum temporibus.         
+            </a>
+          </p> 
+        </div>  
+        <div class="card">
+          <div class="card-img">
+            <a href="blog3.html">
+              <figure>
+                <img src="/img/selfdevelopment.jpg" alt="image of a confident woman">
+                <figcaption>
+                 <strong>Strategies of self-development</strong> 
+                </figcaption>
+              </figure>
+              <span class="card-category btn">meditation</span>
+            </a>
+          </div>    
+          <p class="card-content">
+            <a href="blog3.html">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugit facere repellat rerum labore
+              quo vel amet cumque illum temporibus.         
+            </a>
+          </p> 
+        </div>  
+        <div class="card">
+          <div class="card-img">
+            <a href="blog4.html">
+              <figure>
+                <img src="/img/selfdiscovery.jpg" alt="image of a confident woman">
+                <figcaption>
+                 <strong>Rediscovering the hidden you</strong> 
+                </figcaption>
+              </figure>
+              <span class="card-category btn">Attitude</span>
+            </a>
+          </div>    
+          <p class="card-content">
+            <a href="blog4.html">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugit facere repellat rerum labore
+              quo vel amet cumque illum temporibus.         
+            </a>
+          </p> 
+        </div>  
+        </div>
+      </section>
+    </main> 
+
+    <!-- Aside area -->
+    <aside class="side-notification">
+      <div class="aside-container">
+        <div class="most-viewed">
+          <h2>Most viewed</h2>
+          <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ul>
+        </div>
+        <form action="#">
+          <input type="email" name="email" id="email" placeholder="enter your email">
+          <input type="submit" value="Subscribe" class="btn-primary">
+        </form> 
+      </div>   
+      <div class="aside-container">
+        <div class="contact" id="contact">
+          <h2>Contact us</h2>
+        <ul>
+          <li><i class="fab fa-facebook-f"></i>LizzyK</li>
+          <li><i class="fab fa-instagram"></i>LizzyK</li>
+          <li><i class="fab fa-twitter"></i>Lizzy@K</li>
+          <li><i class="fas fa-envelope-open-text"></i>LizzyK@gmail.com</li>
+        </ul> 
+        </div>
+      </div>   
+      <div class="aside-container">
+        <div class="about" id="about">
+          <h2>About LizzyK</h2>
+          <img src="/img/happy.jpg" alt="Image of a happy woman">
+          <p>The company was initiated in 2013 but evenually commenced online in 2018.
+            The major drive being the desire to see lost individuals regain their sense of self
+            and advance their lifes. we expose subscribers and insiders as we call ourselves, into
+            all areas of personal rediscovery and self-development.
+          </p>
+          <p>
+            If at any point you've searched your soul 
+            and could not relate your reality to the content of your personal insticts, then Lizzyk is here to
+            help you.
+          </p>                 
+        </div>
+      </div>   
+    </aside>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="nav-container">
+        <nav class="footer-list">
+          <ul>
+            <l1><a href="index.html">Home</a></l1>
+            <l1><a href="#about">About</a></l1>
+            <l1><a href="testimonials.html">Testimonials</a></l1>
+            <l1><a href="#contact">Contact</a></l1>
+          </ul>
+        </nav>
+        <p>All rights reserved LizzyK &ampcopy 2021.</p> 
+        <div class="socials">
+          <ul>
+            <li><i class="fab fa-facebook-f"></i>LizzyK</li>
+            <li><i class="fab fa-instagram"></i>LizzyK</li>
+            <li><i class="fab fa-twitter"></i>Lizzy@K</li>
+            <li><i class="fas fa-envelope-open-text"></i>LizzyK@gmail.com</li>
+          </ul> 
+        </div>  
+      </div>  
+    </footer>
   </div>
-  <div class="header-content">
-    <h1> Welcome to this personal blog</h1>
-    <p>this is the place to rediscover the you that is missing</p>
-    <a href="#showcase-content" class="btn btn-primary"><i class="fas fa-chevron-right"></i> see more</a>
-  </div>
- </header> 
 </body>
 </html>
