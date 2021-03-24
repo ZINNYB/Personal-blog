@@ -1,6 +1,6 @@
 /* header area */
 .page-header {
-  background: url(/img/hero.jpg) no-repeat center center/cover;
+  background: url("../img/hero.jpg") no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #fff;
