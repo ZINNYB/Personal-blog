@@ -1,6 +1,5 @@
-@import "/css/root.css";
-@import "/css/header&footer.css";
-@import "/css/utlity.css";
-@import "/css/home.css";
-@import "/css/blog.css";
-@import "../css/mobile.css";
+@import "root.css";
+@import "header&footer.css";
+@import "utlity.css";
+@import "home.css";
+@import "blog.css";
