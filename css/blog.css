@@ -1,6 +1,5 @@
 .blog-header {
   background-color: var(--primary-color);
-
 }
 
 .showcase h1 {
@@ -20,4 +19,11 @@
 
 #blog-aside {
   margin-top: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .showcase h1 {
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
 }

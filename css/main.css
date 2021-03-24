@@ -2,4 +2,5 @@
 @import "/css/header&footer.css";
 @import "/css/utlity.css";
 @import "/css/home.css";
-@import "/css/blog.css"
+@import "/css/blog.css";
+@import "../css/mobile.css";
