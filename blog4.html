@@ -13,19 +13,35 @@
   <div id="grid-container">
     <header class="blog-header">
       <div class="nav-container">
-        <div class="logo">
-          <img src="img/logo.png" alt="image of the website's logo">
+      <div class="logo">
+        <img src="img/logo.png" alt="image of the website's logo">
+      </div>
+      <div class="menu-container">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div class="menu-list-overlay">
+            <div>
+              <ul class="menu-list">
+                </li>
+                <l1 class="list-items current">  
+                  <a href="index.html">Home</a>
+                </l1>
+                <l1 class="list-items">
+                  <a href="#about">About</a>
+                </l1>
+                <l1 class="list-items">
+                  <a href="#contact">Contact</a>
+                </l1>
+              </ul>
+            </div>
+          </div>
         </div>
-        <nav>
-          <ul class="header-list">
-            <l1><a href="index.html" class="current">Home</a></l1>
-            <l1><a href="#about">About</a></l1>
-            <l1><a href="#contact">Contact</a></l1>
-        </ul>
-        </nav>
-      </div>      
-    </header>
-    <!-- main -->
+      </div>
+    </div>      
+  </header>
+
+    <!-- main content area-->
     <main id="showcase-area" class="showcase-area">
       <section class="showcase showcase-blog">
         <h1>Rediscovering the hidden you</h1>  
@@ -36,10 +52,12 @@
           <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi eveniet labore facilis provident quidem magnam beatae magni dolor sequi? adipisicing elit. Minima soluta explicabo reiciendis voluptates omnis odit necessitatibus? Minima excepturi ducimus harum perferendis! Quo distinctio soluta illum ipsa laboriosam quibusdam ipsam et! Optio consequatur perspiciatis nobis blanditiis corporis nostrum sunt excepturi a!</p>
           <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis non delectus, excepturi expedita nisi voluptatibus adipisci consequatur distinctio eos officiis. consectetur adipisicing elit. Sunt rerum ratione facere excepturi nostrum aliquam delectus, ipsa repellendus voluptatibus quisquam esse voluptates modi velit blanditiis? Asperiores alias magni molestias aspernatur iusto doloribus quae doloremque officiis tempora possimus, exercitationem deleniti velit!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ratione quidem error veritatis suscipit tempora earum impedit architecto aperiam obcaecati voluptates commodi rerum numquam distinctio minima ullam, dolorem accusamus! Ex excepturi quia porro hic architecto sunt, eaque eius culpa eveniet.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestiae exercitationem vitae totam labore a quo nobis eveniet odit. Sed, ipsum? Placeat quia odio itaque laborum suscipit ipsum, expedita fugiat labore? Dicta porro ipsum ratione repellat amet quod obcaecati cumque!</p>
+          <blockquote cite="https://www.lipsum.com/">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ea ad reiciendis, vel possimus facilis obcaecati illo magni eveniet modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi eveniet labore facilis provident quidem magnam beatae magni dolor sequi? adipisicing elit. Minima soluta explicabo reiciendis voluptates omnis odit necessitatibus? Minima excepturi ducimus harum perferendis! Quo distinctio soluta illum ipsa laboriosam quibusdam ipsam et! Optio consequatur perspiciatis nobis blanditiis corporis nostrum sunt excepturi a!</blockquote>
         </div>
       </section>
     </main> 
+
+    <!-- aside area -->
     <aside id="blog-aside" class="side-notification">
       <div class="aside-container">
         <div class="most-viewed">
@@ -67,7 +85,7 @@
           </ul> 
         </div>
       </div>   
-      <div class="aside-container">
+      <div class="aside-container about-wrap">
         <div class="about" id="about">
           <h2>About LizzyK</h2>
           <img src="img/happy.jpg" alt="Image of a happy woman">
@@ -81,26 +99,26 @@
     </aside>
 
    <!-- footer -->
-    <footer id="footer">
-      <div class="nav-container">
-        <nav class="footer-list">
-          <ul>
-            <l1><a href="index.html">Home</a></l1>
-            <l1><a href="#about">About</a></l1>
-            <l1><a href="#contact">Contact</a></l1>
-          </ul>
-        </nav> 
-        <p>All rights reserved Lizzyk &ampcopy 2021.</p>
-        <div class="socials">
-          <ul>
-            <li><i class="fab fa-facebook-f"></i>LizzyK</li>
-            <li><i class="fab fa-instagram"></i>LizzyK</li>
-            <li><i class="fab fa-twitter"></i>Lizzy@K</li>
-            <li><i class="fas fa-envelope-open-text"></i>LizzyK@gmail.com</li>
-          </ul> 
-        </div>  
-      </div>  
-    </footer>
+   <footer id="footer">
+    <div class="nav-container">
+      <nav class="footer-list">
+        <ul>
+          <l1><a href="index.html">Home</a></l1>
+          <l1><a href="#about">About</a></l1>
+          <l1><a href="#contact">Contact</a></l1>
+        </ul>
+      </nav>
+      <div class="socials">
+        <ul>
+          <li><i class="fab fa-facebook-f"></i>LizzyK</li>
+          <li><i class="fab fa-instagram"></i>LizzyK</li>
+          <li><i class="fab fa-twitter"></i>Lizzy@K</li>
+          <li><i class="fas fa-envelope-open-text"></i>LizzyK@gmail.com</li>
+        </ul> 
+      </div> 
+      <p>All rights reserved LizzyK &ampcopy 2021.</p>  
+    </div>  
+  </footer>
   </div>
 </body>
 </html>

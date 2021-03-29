@@ -12,18 +12,35 @@
 <body>
   <div id="grid-container">
     <header class="page-header">
-        <div class="nav-container">
-        <div class="logo">
-          <img src="img/logo.png" alt="image of the website's logo">
-        </div>
-        <nav>
-          <ul class="header-list">
-            <l1><a href="index.html" class="current">Home</a></l1>
-            <l1><a href="#about">About</a></l1>
-            <l1><a href="#contact">Contact</a></l1>
-          </ul>
+        <nav class="nav-container">
+              <div class="logo">
+                <a href="index.html">
+                  <img src="img/logo.png" alt="image of the website's logo">
+                </a>
+              </div>
+          <div class="menu-container">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+              <div class="menu-list-overlay">
+                <div>
+                  <ul class="menu-list">
+                    </li>
+                    <l1 class="list-items current">  
+                      <a href="index.html">Home</a>
+                    </l1>
+                    <l1 class="list-items">
+                      <a href="#about">About</a>
+                    </l1>
+                    <l1 class="list-items">
+                      <a href="#contact">Contact</a>
+                    </l1>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </nav>
-      </div>
       <div class="header-content">
         <h1> Welcome to this personal blog</h1>
         <p>this is the place to rediscover the you that is missing</p>
@@ -32,10 +49,9 @@
     </header>
 
     <!-- main section -->
-    <main id="showcase-area">
-      <section class="showcase">
-        <h2>Recent Articles</h2>
-        <div class="showcase-container">
+     <main id="showcase-area">
+      <h2>Recent Articles</h2>
+      <div class="showcase-container">
         <div class="card">
           <div class="card-img">
             <a href="blog1.html">
@@ -112,8 +128,7 @@
             </a>
           </p> 
         </div>  
-        </div>
-      </section>
+      </div>
     </main> 
 
     <!-- Aside area -->
@@ -122,10 +137,10 @@
         <div class="most-viewed">
           <h2>Most viewed</h2>
           <ul>
-            <li>item1</li>
-            <li>item2</li>
-            <li>item3</li>
-            <li>item4</li>
+            <li>confidence is key to self-discovery</li>
+            <li>gratitude makes the difference</li>
+            <li>self-rediscovery begins with awareness</li>
+            <li>your trueself is the most beautiful thing</li>
           </ul>
         </div>
         <form action="#">
@@ -144,14 +159,15 @@
         </ul> 
         </div>
       </div>   
-      <div class="aside-container">
-        <div class="about" id="about">
+      <div class="aside-container about-wrap">
+        <div class="about" >
           <h2>About LizzyK</h2>
           <img src="img/happy.jpg" alt="Image of a happy woman">
-          <p>The company was initiated in 2013 but evenually commenced online in 2018.
+          <p>The company was initiated in <strong>2013</strong>  but evenually commenced online in <strong>2018</strong>.
+          <p>The company was initiated in <strong></strong>  but evenually commenced online in 2018.
             The major drive being the desire to see lost individuals regain their sense of self
             and advance their lifes. we expose subscribers and insiders as we call ourselves, into
-            all areas of personal rediscovery and self-development.
+            all areas of <em>personal rediscovery and self-development.</em>
           </p>
           <p>
             If at any point you've searched your soul 
@@ -172,7 +188,6 @@
             <l1><a href="#contact">Contact</a></l1>
           </ul>
         </nav>
-        <p>All rights reserved LizzyK &ampcopy 2021.</p> 
         <div class="socials">
           <ul>
             <li><i class="fab fa-facebook-f"></i>LizzyK</li>
@@ -180,7 +195,8 @@
             <li><i class="fab fa-twitter"></i>Lizzy@K</li>
             <li><i class="fas fa-envelope-open-text"></i>LizzyK@gmail.com</li>
           </ul> 
-        </div>  
+        </div> 
+        <p>All rights reserved LizzyK &ampcopy 2021.</p>  
       </div>  
     </footer>
   </div>

@@ -1,5 +1,9 @@
 .blog-header {
   background-color: var(--primary-color);
+  height: 70px;
+  position: relative;
+  color: #fff;
+  grid-column: 1/ 13;
 }
 
 .showcase h1 {
@@ -20,6 +24,26 @@
 #blog-aside {
   margin-top: 5rem;
 }
+
+.blog-content blockquote {
+  margin: 1rem 4rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.blog-content blockquote::before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #ccc;
+}
+
+.blog-content blockquote::after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #ccc;
+}
+
 
 @media screen and (max-width: 600px) {
   .showcase h1 {
