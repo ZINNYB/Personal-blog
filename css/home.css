@@ -401,4 +401,7 @@
     grid-column: 1;
   }
 
+  .card-img img {
+    height: auto;
+  }
 }
